@@ -1,0 +1,10 @@
+E:\учеба\методы графики\grafEditor\grafEditor\grafEditor\bin\Debug\grafEditor.exe.config
+E:\учеба\методы графики\grafEditor\grafEditor\grafEditor\bin\Debug\grafEditor.exe
+E:\учеба\методы графики\grafEditor\grafEditor\grafEditor\bin\Debug\grafEditor.pdb
+E:\учеба\методы графики\grafEditor\grafEditor\grafEditor\obj\Debug\grafEditor.csproj.AssemblyReference.cache
+E:\учеба\методы графики\grafEditor\grafEditor\grafEditor\obj\Debug\grafEditor.Form1.resources
+E:\учеба\методы графики\grafEditor\grafEditor\grafEditor\obj\Debug\grafEditor.Properties.Resources.resources
+E:\учеба\методы графики\grafEditor\grafEditor\grafEditor\obj\Debug\grafEditor.csproj.GenerateResource.cache
+E:\учеба\методы графики\grafEditor\grafEditor\grafEditor\obj\Debug\grafEditor.csproj.CoreCompileInputs.cache
+E:\учеба\методы графики\grafEditor\grafEditor\grafEditor\obj\Debug\grafEditor.exe
+E:\учеба\методы графики\grafEditor\grafEditor\grafEditor\obj\Debug\grafEditor.pdb
