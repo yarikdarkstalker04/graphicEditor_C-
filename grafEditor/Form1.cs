@@ -148,18 +148,47 @@ namespace grafEditor
             int y = 0;
             switch (str) {
                 case "line":
-                    if (Math.Abs(endX - strtX) > Math.Abs(endY - strtY))
-                    {
-                        
-                    }
-                    else 
-                    {
-                        for (int i = strtY; i < endY; i++)
+                    int xerr = 0;
+                    int yerr = 0;
+                    int dx = endX - strtX;
+                    int dy = endY - strtY;
+                    int incX = 0, incY = 0;
+                    if (dx > 0)
+                        incX = 1;
+                    else if(dx == 0)
+                        incX = 0;
+                    else if(dx < 0)
+                        incX = -1;
+                    if (dy > 0)
+                        incY = 1;
+                    else if(dy == 0)
+                        incY = 0;
+                    else if(dy < 0)
+                        incY = -1;
+                    dx = Math.Abs(dx);
+                    dy = Math.Abs(dy);
+                    int d;
+                    if (dx > dy)
+                        d = dx;
+                    else
+                        d = dy;
+                    x = strtX; y = strtY;
+                    image1.SetPixel(x,y, clr);
+                    for (int i = 0; i < d; i++) {
+                        xerr += dx;
+                        yerr += dy;
+                        if (xerr > d)
                         {
-                            
-                            image1.SetPixel(x,y,clr);
+                            xerr = xerr - d;
+                            x += incX;
                         }
+                        if (yerr > d) {
+                            yerr = yerr - d;
+                            y += incY;
+                        }
+                        image1.SetPixel(x,y,clr);
                     }
+                    pictureBox1.Image = image1;
                     break;
             }
         }
